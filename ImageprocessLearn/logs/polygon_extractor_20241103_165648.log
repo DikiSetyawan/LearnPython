@@ -1,0 +1,66 @@
+2024-11-03 16:56:49,630 - INFO - [streamlitextractpolygon.py:80] - Application started
+2024-11-03 16:56:54,951 - INFO - [streamlitextractpolygon.py:80] - Application started
+2024-11-03 16:56:54,951 - INFO - [streamlitextractpolygon.py:85] - File uploaded: photo_6140758611790511473_y.jpg
+2024-11-03 16:56:54,951 - INFO - [streamlitextractpolygon.py:25] - Initializing ImageHandler
+2024-11-03 16:56:55,154 - INFO - [streamlitextractpolygon.py:30] - Image loaded successfully. Shape: (1280, 960, 3)
+2024-11-03 16:56:55,154 - DEBUG - [streamlitextractpolygon.py:31] - Image dtype: uint8
+2024-11-03 16:56:55,232 - INFO - [streamlitextractpolygon.py:64] - Displaying Original Image matrix information
+2024-11-03 16:57:13,343 - INFO - [streamlitextractpolygon.py:80] - Application started
+2024-11-03 16:57:13,343 - INFO - [streamlitextractpolygon.py:85] - File uploaded: photo_6140758611790511473_y.jpg
+2024-11-03 16:57:13,343 - INFO - [streamlitextractpolygon.py:25] - Initializing ImageHandler
+2024-11-03 16:57:13,385 - INFO - [streamlitextractpolygon.py:30] - Image loaded successfully. Shape: (1280, 960, 3)
+2024-11-03 16:57:13,390 - DEBUG - [streamlitextractpolygon.py:31] - Image dtype: uint8
+2024-11-03 16:57:13,412 - INFO - [streamlitextractpolygon.py:64] - Displaying Original Image matrix information
+2024-11-03 16:57:13,493 - ERROR - [streamlitextractpolygon.py:155] - Unexpected error in main: Must pass 2-d input. shape=(1280, 960, 3)
+Traceback (most recent call last):
+  File "D:\LearnPython\ImageprocessLearn\streamlitextractpolygon.py", line 98, in main
+    st.write(image_handler.original_image)
+  File "D:\LearnPython\myenv\Lib\site-packages\streamlit\runtime\metrics_util.py", line 410, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LearnPython\myenv\Lib\site-packages\streamlit\elements\write.py", line 423, in write
+    self.dg.dataframe(arg)
+  File "D:\LearnPython\myenv\Lib\site-packages\streamlit\runtime\metrics_util.py", line 410, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LearnPython\myenv\Lib\site-packages\streamlit\elements\arrow.py", line 550, in dataframe
+    data_df = dataframe_util.convert_anything_to_pandas_df(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LearnPython\myenv\Lib\site-packages\streamlit\dataframe_util.py", line 567, in convert_anything_to_pandas_df
+    else _fix_column_naming(pd.DataFrame(data))
+                            ^^^^^^^^^^^^^^^^^^
+  File "D:\LearnPython\myenv\Lib\site-packages\pandas\core\frame.py", line 827, in __init__
+    mgr = ndarray_to_mgr(
+          ^^^^^^^^^^^^^^^
+  File "D:\LearnPython\myenv\Lib\site-packages\pandas\core\internals\construction.py", line 314, in ndarray_to_mgr
+    values = _ensure_2d(values)
+             ^^^^^^^^^^^^^^^^^^
+  File "D:\LearnPython\myenv\Lib\site-packages\pandas\core\internals\construction.py", line 592, in _ensure_2d
+    raise ValueError(f"Must pass 2-d input. shape={values.shape}")
+ValueError: Must pass 2-d input. shape=(1280, 960, 3)
+2024-11-03 16:57:17,418 - INFO - [streamlitextractpolygon.py:80] - Application started
+2024-11-03 16:57:17,418 - INFO - [streamlitextractpolygon.py:85] - File uploaded: photo_6140758611790511473_y.jpg
+2024-11-03 16:57:17,418 - INFO - [streamlitextractpolygon.py:25] - Initializing ImageHandler
+2024-11-03 16:57:17,460 - INFO - [streamlitextractpolygon.py:30] - Image loaded successfully. Shape: (1280, 960, 3)
+2024-11-03 16:57:17,468 - DEBUG - [streamlitextractpolygon.py:31] - Image dtype: uint8
+2024-11-03 16:57:17,492 - INFO - [streamlitextractpolygon.py:64] - Displaying Original Image matrix information
+2024-11-03 16:57:21,180 - INFO - [streamlitextractpolygon.py:80] - Application started
+2024-11-03 16:57:21,180 - INFO - [streamlitextractpolygon.py:85] - File uploaded: photo_6140758611790511473_y.jpg
+2024-11-03 16:57:21,180 - INFO - [streamlitextractpolygon.py:25] - Initializing ImageHandler
+2024-11-03 16:57:21,217 - INFO - [streamlitextractpolygon.py:30] - Image loaded successfully. Shape: (1280, 960, 3)
+2024-11-03 16:57:21,217 - DEBUG - [streamlitextractpolygon.py:31] - Image dtype: uint8
+2024-11-03 16:57:21,264 - INFO - [streamlitextractpolygon.py:64] - Displaying Original Image matrix information
+2024-11-03 16:57:21,334 - INFO - [streamlitextractpolygon.py:102] - Starting polygon drawing interface
+2024-11-03 16:57:32,365 - DEBUG - [streamlitextractpolygon.py:111] - Point added at coordinates: (82, 535)
+2024-11-03 16:57:33,952 - DEBUG - [streamlitextractpolygon.py:111] - Point added at coordinates: (199, 541)
+2024-11-03 16:57:33,979 - DEBUG - [streamlitextractpolygon.py:111] - Point added at coordinates: (199, 541)
+2024-11-03 16:57:34,667 - DEBUG - [streamlitextractpolygon.py:111] - Point added at coordinates: (195, 593)
+2024-11-03 16:57:35,867 - DEBUG - [streamlitextractpolygon.py:111] - Point added at coordinates: (75, 594)
+2024-11-03 16:57:36,809 - DEBUG - [streamlitextractpolygon.py:111] - Point added at coordinates: (83, 536)
+2024-11-03 16:57:37,574 - INFO - [streamlitextractpolygon.py:128] - Polygon drawing completed with 6 points
+2024-11-03 16:57:37,582 - INFO - [streamlitextractpolygon.py:37] - Starting polygon extraction
+2024-11-03 16:57:37,582 - DEBUG - [streamlitextractpolygon.py:42] - Mask created with shape: (1280, 960)
+2024-11-03 16:57:37,643 - DEBUG - [streamlitextractpolygon.py:46] - Region extracted with shape: (1280, 960, 3)
+2024-11-03 16:57:37,643 - DEBUG - [streamlitextractpolygon.py:50] - Bounding rectangle: x=75, y=535, w=125, h=60
+2024-11-03 16:57:37,643 - INFO - [streamlitextractpolygon.py:54] - Cropped region shape: (60, 125, 3)
+2024-11-03 16:57:37,653 - INFO - [streamlitextractpolygon.py:64] - Displaying Extracted Region matrix information
